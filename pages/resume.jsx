@@ -5,7 +5,7 @@ import Link from 'react';
 
 
 const resume = () => {
-  const documentURL = 'https://docs.google.com/document/d/1GlEKPtBHlsXoryvjDgEyKfTa9C30FjnH/edit?usp=drive_link&ouid=102473385364013312680&rtpof=true&sd=true';
+  const documentURL = 'https://docs.google.com/document/d/1PGC5JVIMxgdamr2XRBQf8OPedtRk9V98lEGqSrMJsJY/edit?usp=sharing';
   return (
     <>
       <Head>
