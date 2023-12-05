@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Nkunja </title>
-        <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
+        {/* <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." /> */}
       </Head>
     <Main />
     <About />

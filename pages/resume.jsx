@@ -10,10 +10,10 @@ const resume = () => {
     <>
       <Head>
         <title>Nkunja Resume</title>
-        <meta
+        {/* <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
-        />
+        /> */}
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
