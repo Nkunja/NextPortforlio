@@ -6,6 +6,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
+import { Button } from '@chakra-ui/react';
 
 const Contact = () => {
   return (
@@ -79,6 +80,7 @@ const Contact = () => {
                 method='POST'
                 encType='multipart/form-data'
               >
+                <div><label className='uppercase text-center py-2'>Send Me a Message</label></div>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
@@ -123,9 +125,10 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 text-gray-100 mt-4'>
+                <button type="submit" className='w-full p-4 text-blue-100 mt-4' style={{display: 'block'}}>
                   Send Message
                 </button>
+                
               </form>
             </div>
           </div>

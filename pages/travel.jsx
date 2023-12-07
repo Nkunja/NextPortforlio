@@ -3,6 +3,7 @@ import React from 'react';
 import travelImg from '../public/assets/projects/Travel.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import { Button } from '@chakra-ui/react';
 
 const travel = () => {
   return (
@@ -36,14 +37,14 @@ const travel = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <Button variant="solid" colorScheme="blue" className='px-8 py-2 mt-4 mr-8'>Code</Button>
           </a>
           <a
             href='https://travelapp-seven.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+            <Button variant="solid" colorScheme="blue" className='px-8 py-2 mt-4 mr-8'>Demo</Button>
           </a>
 
         </div>
@@ -73,7 +74,7 @@ const travel = () => {
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
+        <Button variant="solid" colorScheme="red" className='px-8 py-2 mt-4 mr-8'>Back</Button>
         </Link>
       </div>
     </div>

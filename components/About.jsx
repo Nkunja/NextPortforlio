@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import AboutImg from '../public/assets/about.jpg';
+import { Button } from '@chakra-ui/react';
 
 const About = () => {
   return (
@@ -22,14 +23,15 @@ const About = () => {
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
           </p>
-          <p className='py-2 text-gray-600'>
-            Hire Me
-          </p>
-          <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out some of my latest projects.
-            </p>
+          <div>
+          <Link href='/#contact'>
+          <Button variant="solid" colorScheme="blue" className='px-8 py-2 mt-4 mr-8'>Contact Me</Button>
           </Link>
+          <Link href='/#projects'>
+          <Button variant="solid" colorScheme="blue" className='px-8 py-2 mt-4 mr-8'>Some of my Projects</Button>
+          
+          </Link>
+          </div>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />

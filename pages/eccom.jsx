@@ -3,6 +3,7 @@ import React from 'react';
 import Eccom from '../public/assets/projects/eccom.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import { Button } from "@chakra-ui/react";
 
 const property = () => {
   return (
@@ -35,14 +36,16 @@ const property = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+    
+            <Button variant="solid" colorScheme="blue" className='px-8 py-2 mt-4 mr-8'>Code</Button>
           </a>
           <a
             href='https://ecommerce-nkunja.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+           <Button variant="solid" colorScheme="blue" className='px-8 py-2 mt-4 mr-8'>Demo</Button>
+
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -71,7 +74,7 @@ const property = () => {
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
+        <Button variant="solid" colorScheme="red" className='px-8 py-2 mt-4 mr-8'>Back</Button>
         </Link>
       </div>
     </div>
