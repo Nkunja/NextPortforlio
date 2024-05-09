@@ -125,7 +125,7 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <button type="submit" className='w-full p-4 text-blue-100 mt-4' style={{display: 'block'}}>
+                <button type="submit" className='w-full p-4 text-blue-600 mt-4' style={{display: 'block'}}>
                   Send Message
                 </button>
                 
