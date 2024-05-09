@@ -7,8 +7,10 @@ import ReactImg from '../public/assets/skills/react.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
 import Firebase from '../public/assets/skills/firebase.png';
-import NextJS from '../public/assets/skills/nextjs.png'
-import AWS from '../public/assets/skills/aws.png';
+import NextJS from '../public/assets/skills/nextjs.png';
+import Python from '../public/assets/skills/python.png'; 
+import Django from '../public/assets/skills/django.png'; 
+import PostgreSQL from '../public/assets/skills/posgresql.png'; 
 
 const Skills = () => {
   return (
@@ -19,6 +21,7 @@ const Skills = () => {
         </p>
         <h2 className='py-4'>What I Can Do</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
+          {/* HTML */}
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -29,6 +32,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          {/* CSS */}
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -39,6 +43,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          {/* JavaScript */}
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -49,6 +54,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          {/* React */}
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -59,6 +65,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          {/* Tailwind */}
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -69,6 +76,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          {/* Firebase */}
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -79,6 +87,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          {/* Github */}
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -89,16 +98,62 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          {/* Next.js */}
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={NextJS} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Next</h3>
+                <h3>Next.js</h3>
               </div>
             </div>
           </div>
+          {/* Python */}
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Python} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Python</h3>
+              </div>
+            </div>
+          </div>
+          {/* Django */}
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Django} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Django</h3>
+              </div>
+            </div>
+          </div>
+          {/* PostgreSQL */}
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={PostgreSQL} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>PostgreSQL</h3>
+              </div>
+            </div>
+          </div>
+          {/* React Native */}
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={ReactImg} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>React Native</h3>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

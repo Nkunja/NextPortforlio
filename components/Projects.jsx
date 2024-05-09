@@ -4,7 +4,8 @@ import React from 'react';
 import Eccom from '../public/assets/projects/eccom.png';
 import travelImg from '../public/assets/projects/Travel.png'
 import todoImg from '../public/assets/projects/todo.png'
-// import twitchImg from '../public/assets/projects/twitch.jpg'
+import adminImg from '../public/assets/projects/adminutibu.png';
+import utibuImg from '../public/assets/projects/utibuapp.jpeg';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -29,20 +30,27 @@ const Projects = () => {
             tech='React JS'
 
           />
-          <ProjectItem
+          {/* <ProjectItem
             title='To-Do App'
             backgroundImg={todoImg}
             projectUrl='/todo'
             tech='React JS'
 
-          />
-          {/* <ProjectItem
-            title='Twitch UI'
-            backgroundImg={Eccom}
-            projectUrl='/twitch'
-            tech='Next JS'
-
           /> */}
+          <ProjectItem
+            title='Admin Utibu'
+            backgroundImg={adminImg}
+            projectUrl='/utibuadmin'
+            tech='Django'
+
+          />
+          <ProjectItem
+            title='Utibu App'
+            backgroundImg={utibuImg}
+            projectUrl='/utibuapp'
+            tech='React Native'
+
+          />
         </div>
       </div>
     </div>
