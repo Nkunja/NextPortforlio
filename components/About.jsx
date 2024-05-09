@@ -13,7 +13,7 @@ const About = () => {
             About
           </p>
           <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
+          {/* <p className='py-2 text-gray-600'>
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
             passionate about learning new technologies and understand there is
@@ -22,6 +22,15 @@ const About = () => {
             React, I am a quick learner and can pick up new tech stacks as
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
+          </p> */}
+          <p className='py-2 text-gray-600'>
+            I am a full stack web and mobile developer with extensive experience in building robust, scalable, and efficient full stack applications. My expertise lies in utilizing a variety of technologies to create seamless user experiences across web and mobile platforms.
+          </p>
+          <p className='py-2 text-gray-600'>
+            I specialize in building mobile-responsive front-end UI applications that connect with APIs and integrate with various backend technologies. I am well-versed in both traditional server-rendered web applications as well as modern single-page applications (SPAs) and progressive web apps (PWAs).
+          </p>
+          <p className='py-2 text-gray-600'>
+            My primary tech stack includes Python with Django for backend development, JavaScript with React.js for front-end development, and React Native for mobile app development. I have extensive experience working with databases, particularly PostgreSQL, and utilizing Firebase for real-time database and authentication.
           </p>
           <div>
           <Link href='/#contact'>
